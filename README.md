@@ -9,8 +9,13 @@
 
 ## 总结：绕开使用VPS时的流量不被奈飞检测到，让VPS出口IP为WARP的IP，再让柯学工具的出口IP为原生IP。即可。
 
+## 1.Cloudflare WARP 一键配置脚本 功能菜单
 ```bash
- "outbounds": [
+   bash <(curl -fsSL git.io/warp.sh) menu
+```
+## 2.修改V2ray、Xray 出口IP
+```bash
+   "outbounds": [
     {
       "sendThrough": "123.123.123.123",
       "protocol": "freedom",
