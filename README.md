@@ -13,6 +13,14 @@
 ```bash
    bash <(curl -fsSL git.io/warp.sh) menu
 ```
+## 查看VPS出口IP（任选其一）
+```bash
+   curl ipinfo.io
+   curl ifconfig.me
+   curl ipinfo.io/json
+   curl ifconfig.me/all.json
+```
+
 ## 2.修改V2ray、Xray 出口IP
 ```bash
    "outbounds": [
